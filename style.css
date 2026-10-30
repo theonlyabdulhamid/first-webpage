@@ -1,7 +1,4 @@
-*{
-    font-weight: 900;
-    font-weight: bold;
-}
+
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +10,6 @@ body{
     background-color: #1F2937;
     color:#F9FAF8;
     padding: 10px 60px;
-    padding-bottom: 0px;
     font-weight: 900;
     
 }
@@ -22,10 +18,11 @@ body{
     font-weight: bold;
 }
 .header .link{
-text-decoration: none;
-color: white;
-padding: 0 8px;
-font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 0 8px;
+    font-size: 14px;
+    font-weight: normal;
 }
 .hero{
     background-color:  #1F2937;
@@ -39,9 +36,6 @@ font-size: 14px;
     max-width: 1300px;
     margin: 0 auto;
     padding: 40px 20px;
-
-
-    padding-bottom: 20px;
     align-items: center;
 }
 .img{
@@ -72,17 +66,20 @@ font-size: 14px;
     color: #1F2937;
     margin-bottom: 40px;
 }
+.info-section{
+    padding: 40px 20px 80px 20px;
+}
 .info-cards-container{
     display: flex;
     gap: 48px;
     max-width: 1000px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-img{
-    border-color:black ;
     border-radius: 8px;
-    max-width: 160px;
     width: 160px;
     height: 160px;
     background-color: white;
@@ -101,29 +98,61 @@ font-size: 14px;
     text-align: center;
     columns: #6B7280;
     margin-top: 8px;
+    font-size: 14px;
+
 }
 .info-cards-container{
     align-items: center;
     justify-content: center;
 }  
+.article-section{
+     background-color: #E6E7Eb;
+     justify-content: center;
+     padding: 80px,20px;
+}
 .article-content{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    background-color: #E6E7Eb;
     font-style:italic;
     font-size: 36px;
     color: #1F2937;
-    justify-content: center;
+    justify-content: center; 
     text-align: center;
-    
 
 }
 .article{
     font-weight: 300;
+    padding: 50px;
     
 }
 .article-content .author{
     text-align: end;
+    font-size: 30px;
+    padding: 50px;
+    padding-top: 2px;
     
+}
+.call-container{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+#call{
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    border:1px solid white;
+
+}
+.call-to-action{
+    background-color: white;
+    padding:60px ;
+    max-width: 1000px;
 }
